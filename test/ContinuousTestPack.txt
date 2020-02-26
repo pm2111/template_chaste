@@ -1,1 +1,17 @@
 TestHello.hpp
+TestDijkstra.hpp
+TestDijkstraRV.hpp
+Test_ECG_Pat18LGE.hpp
+TestARVCGeneric.hpp
+TestControlECG_ORd_pat05_smallCommandline.hpp 
+TestSlab.hpp
+TestFibresPeter.hpp
+TestARVCGenericEndo.hpp
+TestARVCGenericJenny.hpp
+Test2D.hpp
+TestARVC09.hpp
+TestARVC09_ACM.hpp
+TestARVC09_ACM_fib.hpp
+TestARVC09_ACM_fib_regions.hpp
+
+

@@ -48,7 +48,8 @@ chaste_libs_used = ['core']
 #chaste_libs_used = ['cell_based']
 #chaste_libs_used = ['heart']
 #chaste_libs_used = ['cell_based', 'heart']
-
+env = SConsTools.CloneEnv(env)
+env['PYCML_EXTRA_ARGS'] = ['--expose-annotated-variables']
 # Do the build magic
 result = SConsTools.DoProjectSConscript(project_name, chaste_libs_used, globals())
 Return("result")
