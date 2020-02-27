@@ -13,5 +13,6 @@ TestARVC09.hpp
 TestARVC09_ACM.hpp
 TestARVC09_ACM_fib.hpp
 TestARVC09_ACM_fib_regions.hpp
+TestACM_APD_LGE_Small.hpp
 
 

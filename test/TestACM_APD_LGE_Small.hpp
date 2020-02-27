@@ -10,7 +10,7 @@
 #include "RegularStimulus.hpp"
 #include "ORdGksVarierARVC018.hpp"
 #include "PostUpstrokeTimeAdaptivityControllerCL.hpp"
-#include "DijkstraARVC018_ToRORd_ACM_fib.hpp"
+#include "DijkstraARVC018_ToRORd_ACM_fib_small.hpp"
 #include "PseudoEcgCalculator.hpp"
 #include "OutputFileHandler.hpp"
 #include "FileComparison.hpp"
@@ -189,7 +189,7 @@ public:
 
 
         /* Simulation options */
-        HeartConfig::Instance()->SetSimulationDuration(1600); // ms
+        HeartConfig::Instance()->SetSimulationDuration(600); // ms
 	double period = 800.0;//stimulation period in ms, 
         HeartConfig::Instance()->SetOutputDirectory(output_dir);
         HeartConfig::Instance()->SetOutputFilenamePrefix("results");

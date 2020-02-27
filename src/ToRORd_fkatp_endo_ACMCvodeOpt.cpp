@@ -107,7 +107,7 @@ protected:
         mKeyingVariableNames[0] = "membrane_voltage";
         mNumberOfTables[0] = 99;
         mTableMins[0] = -120.0001;
-        mTableSteps[0] = 0.005;
+        mTableSteps[0] = 0.001;
         mTableStepInverses[0] = 1000.0;
         mTableMaxs[0] = 120.00;
         mNeedsRegeneration[0] = true;
